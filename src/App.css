@@ -1,3 +1,7 @@
+body {
+  margin: 50px 0px; 
+}
+
 .progressBarContainer {
   display: flex;
   flex-direction: column;
@@ -13,10 +17,9 @@
 
 .progressBar{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  border: 2px grey solid;
+  justify-content: flex-start;
+  border: 0.5px #2c8558 solid;
   height: 25px;
   width: 95%;
   border-radius: 8px;
@@ -25,4 +28,12 @@
 .percentageText{
   font-size: 14px;
   font-weight: 600;
+  position: fixed;
+  left: 50%;
+}
+
+.progress{
+  border-radius: 8px;
+  background: #2c8558;
+  height: 100%;
 }
