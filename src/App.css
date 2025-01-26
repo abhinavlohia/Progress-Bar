@@ -24,16 +24,3 @@ body {
   width: 95%;
   border-radius: 8px;
 }
-
-.percentageText{
-  font-size: 14px;
-  font-weight: 600;
-  position: fixed;
-  left: 50%;
-}
-
-.progress{
-  border-radius: 8px;
-  background: #2c8558;
-  height: 100%;
-}
