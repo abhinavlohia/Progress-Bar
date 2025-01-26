@@ -9,7 +9,7 @@ export default function ProgressBar() {
         setCurrPercentage((prev) => prev + 1);
         const progress = document.getElementsByClassName("progress")[0];
         progress.style.width = `${currPercentage + 1}%`;
-      }, [50]);
+      }, [100]);
     }
 
     if (currPercentage > 50) {
